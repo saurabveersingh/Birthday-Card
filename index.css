@@ -4,7 +4,6 @@ div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
 }
 body{
     color: white;
@@ -12,7 +11,7 @@ body{
     font-weight: bold;
     text-shadow: 0px 0px 2px black;
     margin: 0;
-    background-color: #a2d2ff;
+    background:linear-gradient(#a2d2ff,#EFB0C9);
 }
 #pic{
     margin: 20px 0;
@@ -23,6 +22,9 @@ body{
 #text-under-image{
     margin: 20px 0 0 0 ;
     border-radius: 5px;
+}
+#head{
+    margin-bottom: 50px;
 }
 #ut{
     background-color: #EFB0C9;
@@ -51,6 +53,7 @@ body{
     background-position:50%;
     border: 10px solid white;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 #gift-one:hover{
     background-image: url("images/happy.gif");
@@ -64,6 +67,12 @@ body{
 #gift-four:hover{
     background-image: url("images/bond.webp");
 }
+#gift-five{
+    height: 200px;
+}
+#gift-five:hover{
+    background-image: url("images/drink.webp");
+}
 #footer{
-    margin-bottom: 80px;
+    margin: 60px 0 80px 0;
 }
