@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+body{
+    color: white;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black;
+    margin: 0;
+    background-color: #a2d2ff;
+}
+#pic{
+    margin: 20px 0;
+    width: 200px;
+    border-radius: 100px;
+    border: 6px solid #EFB0C9;
+}
+#text-under-image{
+    margin: 20px 0 0 0 ;
+    border-radius: 5px;
+}
+#ut{
+    background-color: #EFB0C9;
+    padding: 4px 9px 4px 9px;
+    margin: 0;
+}
+#lt{
+    background-color: #EFB0C9;
+    margin: 0;
+    padding: 0 4px 4px 4px;
+    border-radius: 100px;
+    align-self: end;
+    margin-right: 5%;
+}
+.gift-note{
+    margin: 20px 0 0 0;
+}
+.directions{
+    margin: 10px 0;
+}
+.gift {
+    width: 400px;
+    height: 400px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    background-position:50%;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+#gift-one:hover{
+    background-image: url("images/happy.gif");
+}
+#gift-two:hover{
+    background-image: url("images/enter.webp");
+}
+#gift-three:hover{
+    background-image: url("images/genius.webp");
+}
+#gift-four:hover{
+    background-image: url("images/bond.webp");
+}
+#footer{
+    margin-bottom: 80px;
+}
