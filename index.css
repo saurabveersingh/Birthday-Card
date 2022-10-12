@@ -76,3 +76,7 @@ body{
 #footer{
     margin: 60px 0 80px 0;
 }
+img{
+    height: 200px;
+    width: 200px;
+}
