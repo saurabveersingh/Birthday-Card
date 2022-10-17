@@ -1,29 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 
-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 body{
     color: white;
     font-family: 'Happy Monkey', cursive;
     font-weight: bold;
     text-shadow: 0px 0px 2px black;
+    text-align: center;
     margin: 0;
     background:linear-gradient(#a2d2ff,#EFB0C9);
 }
+header,section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 #pic{
-    margin: 20px 0;
-    width: 200px;
-    border-radius: 100px;
+    margin: 1.25em 0;
+    width: 12.5em;
+    height: 12.5em;
+    border-radius: 1000px;
     border: 6px solid #EFB0C9;
 }
 #text-under-image{
+    display: flex;
+    flex-direction: column;
     margin: 20px 0 0 0 ;
     border-radius: 5px;
 }
-#head{
+header{
     margin-bottom: 50px;
 }
 #ut{
@@ -46,8 +50,10 @@ body{
     margin: 10px 0;
 }
 .gift {
-    width: 400px;
-    height: 400px;
+    width: 80vw;
+    height: 80vw;
+    max-width: 400px;
+    max-height: 400px;
     background-image: url("images/gift.jpg");
     background-size: cover;
     background-position:50%;
@@ -68,15 +74,12 @@ body{
     background-image: url("images/bond.webp");
 }
 #gift-five{
-    height: 200px;
+    height: 40vw;
+    max-height: 200px;
 }
 #gift-five:hover{
     background-image: url("images/drink.webp");
 }
-#footer{
+footer{
     margin: 60px 0 80px 0;
-}
-img{
-    height: 200px;
-    width: 200px;
 }
